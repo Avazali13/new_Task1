@@ -68,10 +68,11 @@ header .buttons :hover {
   transform: scale(1.1);
 }
 header .buttons button {
-  padding: 0.5rem 1rem;
+  padding: 0.9rem 1.5rem;
   border-radius: 5px;
   border: 1px solid #f8f9fa;
   margin: 5px;
+  margin-top: 25px;
   background-color: #212529;
   color: #fff;
 }
@@ -94,6 +95,7 @@ main #section1 .container .card {
   display: flex;
   flex-direction: column;
   row-gap: 10px;
+  padding: 0 10px;
 }
 main #section1 .container .card a {
   margin-top: 10px;
@@ -102,4 +104,80 @@ main #section1 .container .card a {
 main #section1 .container .card img {
   width: 64px;
   height: 64px;
+}
+main #section2 {
+  height: 733;
+  background-color: rgb(242, 241, 241);
+  border: 1px solid #adb5bd;
+}
+main #section2 .container {
+  width: 100%;
+  margin-top: 100px;
+}
+main #section2 .container .allcards {
+  display: flex;
+  max-width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+main #section2 .container .info {
+  text-align: center;
+}
+main #section2 .container .info p {
+  margin-top: 5px;
+  color: #6c757d;
+}
+main #section2 .container h2 {
+  font-size: 32px;
+}
+main #section2 .container .cards {
+  width: 26%;
+  height: 462px;
+  background-color: #fff;
+  padding: 45px 60px;
+  border: 1px solid #adb5bd;
+}
+main #section2 .container .cards .free {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(108, 117, 125);
+}
+main #section2 .container .cards .zero {
+  font-size: 56px;
+  font-weight: 700;
+}
+main #section2 .container .cards .month {
+  color: rgb(108, 117, 125);
+}
+main #section2 .container .cards .down {
+  margin-top: 10px;
+}
+main #section2 .container .cards .down p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+main #section2 .container .cards .down p .fa-xmark {
+  color: rgb(108, 117, 125);
+}
+main #section2 .container .cards .down .button {
+  padding: 15px 12px;
+}
+main #section2 .container .cards .button1 :hover {
+  background-color: #0d6efd;
+  cursor: pointer;
+  transition: 1.5s;
+  border: none;
+  transform: scale(1.1);
+  color: white;
+}
+main #section2 .container .cards .button1 button {
+  width: 252px;
+  height: 32px;
+  margin-top: 25px;
+  border: 1px solid rgb(13, 110, 253);
+  border-radius: 5px;
+  color: rgb(13, 110, 253);
+  background-color: #fff;
 }
